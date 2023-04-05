@@ -2,10 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios'
 
 
-
-
-// Update your UI to display the current order, as it is returned from your endpoint in step 4."
-
 export default function Home() {
 
   const [pizzas, setPizzas] = useState([])
